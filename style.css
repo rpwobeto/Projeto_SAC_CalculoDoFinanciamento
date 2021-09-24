@@ -1,0 +1,92 @@
+h1,
+h2,
+th {
+  color: #08978e;
+}
+label {
+  font-family: arial, sans-serif;
+  font-size: 20px;
+}
+input {
+  width: 100%;
+  padding: 10px ;
+  margin: 8px 10px;
+  display: inline-block;
+  border: 2px solid rgb(189, 188, 188);
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.conteudo {
+  display: flex;
+  justify-content: center;
+}
+
+.tdiv {
+  display: flex;
+  justify-content: center;
+}
+.coluna {
+  padding: 10px;
+}
+html {
+  background-color: rgb(24, 159, 163);
+}
+body {
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  height: 100%;
+}
+button {
+  border: none;
+  color: white;
+  padding: 6px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 28px;
+  margin: 6px 12px;
+  cursor: pointer;
+  background-color: #05b1a5;
+}
+button:hover {
+  transform: scale(1.1);
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+@media only screen and (max-width: 768px) {
+  /*Mobile*/
+  .conteudo {
+    display: block;
+    align-items: center;
+  }
+  body {
+    height: 100%;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+  }
+
+  td,
+  th {
+    border: 10px solid #dddddd;
+    text-align: center;
+    padding: 20px;
+  }
+}
